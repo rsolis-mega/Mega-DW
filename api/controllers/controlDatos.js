@@ -18,8 +18,9 @@ async function getTicket() {
     try {
         const username = 'AdministradorIT'
         let res = await axios.post(`http://192.168.25.17/trusted?username=${username}`)
-        let datos = res.data
-        console.log('Token: ', datos)
+        let datos = {
+            'Token': res.data
+        }
         return datos
     } catch (error) {
         console.log(error)

@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  //apiProductiva: 'http://192.168.25.34',
+  SERVICIOS_DW: 'http://localhost:8080/api'
 };
 
 /*
