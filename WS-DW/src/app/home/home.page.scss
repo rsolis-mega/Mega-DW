@@ -1,3 +1,18 @@
+.imagen {
+  align-items: center;
+  padding: 20px 10px 20px 20px;
+  width: 15%;
+  height: 15%;
+  position: relative;
+  display: inline-block;
+}
+
+.adjust {
+  display: inline-block;
+  width: 42.5%;
+  height: 42.5%;
+}
+
 .principal {
   padding: 20px 10px 20px 20px;
   text-align: center;
