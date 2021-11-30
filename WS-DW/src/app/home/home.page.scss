@@ -1,16 +1,17 @@
 .imagen {
   align-items: center;
   padding: 20px 10px 20px 20px;
-  width: 15%;
-  height: 15%;
+  max-width: 20%;
+  min-width: 50px;
+  min-height: 20%;
   position: relative;
   display: inline-block;
 }
 
 .adjust {
   display: inline-block;
-  width: 42.5%;
-  height: 42.5%;
+  width: 25%;
+  height: 25%;
 }
 
 .principal {
